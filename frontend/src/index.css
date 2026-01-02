@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+/* CLEAN INDEX.CSS FOR TAILWIND CDN */
+/* All Tailwind styles are loaded via CDN in index.html */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Force dark background immediately to prevent white flash */
+body {
+    background-color: #020617;
+    color: white;
+}
